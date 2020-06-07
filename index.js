@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', async (req, res) =>{
-    const userInfo = new UserInfo(req.body.id, req.body.amount, req.body.user, req.body.operation)
+    const userInfo = new UserInfo(req.body.amount, req.body.user, req.body.operation)
     await userInfo.save()
     res.redirect('/result')
     
@@ -41,6 +41,9 @@ console.log(last)
     res.render('result', {last})
   
  })
+
+
+
 
 const PORT = process.env.PORT || 3000
 

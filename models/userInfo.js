@@ -11,8 +11,11 @@ class UserInfo{
         this.id = Date.now()
         this.date = date
         this.currency = "EUR"
-
+        //this.result = result()
+        //this.operation === "cash_in"?this.amount * 0.03:this.amount
     }
+
+    
 
   resultIn(){
      if(this.operation === "cash_in" && this.amount * 0.0003 <= 5){
@@ -21,6 +24,8 @@ class UserInfo{
          return 5
      }
   }
+
+  
 
   resultOut(){
        if(this.user === "juridical" && this.amount<=1.67){
