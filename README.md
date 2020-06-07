@@ -7,8 +7,8 @@ Provides the ability to calculate what the commission fees will be depending on 
 
 ### Example
 
-<!--![](C:\Users\aukkt\OneDrive\Stalinis kompiuteris\Counter.png)-->
-<img src="C:\Users\aukkt\OneDrive\Stalinis kompiuteris\Counter.png" width="600" height="400" alt="example">
+![](Counter.PNG)
+
 
 ### Technologies
 
