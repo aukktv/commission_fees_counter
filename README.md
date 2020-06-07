@@ -30,6 +30,7 @@ git clone https://github.com/aukktv/commission_fees_counter.git
 > Staring UI application with comands:
 
 ```html
+cd .\commission_fees_counter\
 npm install
 npm start
 ```
